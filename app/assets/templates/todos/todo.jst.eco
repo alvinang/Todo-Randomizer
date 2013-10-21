@@ -2,3 +2,4 @@
 <% if @todo.get('priority'): %>
   <span class="badge winner">WINNER</span>
 <% end %>
+<button class="delete">Delete</button>

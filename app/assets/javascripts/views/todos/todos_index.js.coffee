@@ -9,6 +9,7 @@ class TodoRandomizer.Views.TodosIndex extends Backbone.View
   initialize: ->
     @collection.on('reset', @render, @)
     @collection.on('add', @appendEntry, @)
+    @collection.on('remove', @render, @)
 
   render: ->
     $(@el).html(@template(todo: @model))
