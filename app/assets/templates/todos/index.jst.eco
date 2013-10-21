@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="text-center col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+    <h1>Todo dude..</h1>
+
+    <form id="new_todo" class="form-inline" role="form" style="margin-bottom:30px;">
+      <div class="form-group col-xs-10 col-sm-10 col-md-10 col-lg-10">
+        <input type="text" name="task" id="new_todo_name" class="form-control col-md-4">
+      </div>
+      <input type="submit" class="btn btn-success" value="Add">
+    </form>
+
+    <ul class="list-group" id="todos">
+
+    </ul>
+
+    <button id="draw" class="btn btn-success">Randomize</button>
+  </div>
+</div>

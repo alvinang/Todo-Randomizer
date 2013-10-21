@@ -1,0 +1,7 @@
+Todo.create!(task: "Matz")
+Todo.create!(task: "Yehuda Katz")
+Todo.create!(task: "DHH")
+Todo.create!(task: "Jose Valim")
+Todo.create!(task: "Dr Nic")
+Todo.create!(task: "John Nunemaker")
+Todo.create!(task: "Aaron Patterson")

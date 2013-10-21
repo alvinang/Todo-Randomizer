@@ -1,0 +1,4 @@
+<%= @todo.get('task') %>
+<% if @todo.get('priority'): %>
+  <span class="badge winner">WINNER</span>
+<% end %>
