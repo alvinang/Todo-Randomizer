@@ -6,6 +6,7 @@ This app is built using:
 * Rails 4.0.0
 * Ruby 2.0.0p247
 * Backbone (using backbone on rails gem)
+* Twitter Bootstrap 3.0.0
 
 ### Functions
 
@@ -40,6 +41,14 @@ and in the gemfile, added:
 ```ruby
 gem 'protected_attributes'
 ```
+
+### Remaining Task
+
+* Ability to remove todo list
+* Cap todo list to maximum of 5
+* Drag & drop capability
+* Timer
+* Clean up UI
 
 ### Methodology (non-technical)
 
