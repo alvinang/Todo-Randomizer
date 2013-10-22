@@ -12,7 +12,6 @@ This app is built using:
 
 * Adding to-do task
 * Randomly selecting one to-do for immediate action
-* Built-in timer (optional)
 
 ### Changes from RailsCast
 
@@ -42,19 +41,9 @@ and in the gemfile, added:
 gem 'protected_attributes'
 ```
 
-### Remaining Task
-
-* Ability to remove todo list
-* Cap todo list to maximum of 5
-* Drag & drop capability
-* Timer
-* Clean up UI
-
 ### Methodology (non-technical)
 
-From the book (The 4-Hour Workweek)[http://www.fourhourworkweek.com/] by Tim Ferriss & [The 7 Habits of Highly Effective People](https://www.stephencovey.com/7habits/7habits.php), staying focused is crucial. Hence, this app is created with a maximum of 5 things on your to-do list, to be completed today.
-
-When you are running out of time, you focus entirely on finishing up your work; hence the timer. 
+From the book (The 4-Hour Workweek)[http://www.fourhourworkweek.com/] by Tim Ferriss & [The 7 Habits of Highly Effective People](https://www.stephencovey.com/7habits/7habits.php), staying focused is crucial. Hence, this app is created to allow you to add important tasks to be completed today.
 
 ### Questions/Comments
 

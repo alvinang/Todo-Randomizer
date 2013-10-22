@@ -4,15 +4,15 @@ class TodoRandomizer.Views.Todo extends Backbone.View
   className: 'list-group-item'
 
   events:
-    'click .delete': 'deleteTask'
+    "click :checkbox": 'deleteTask'
 
   initialize: ->
-    @model.on('change', @render, @)
+    @model.on('change', @render)
 
-  render: ->
+  render: =>
     $(@el).html(@template(todo: @model))
     @
 
-  deleteTask: (event) ->
+  deleteTask: (event) =>
     event.preventDefault()
     @model.destroy(todo: @model)

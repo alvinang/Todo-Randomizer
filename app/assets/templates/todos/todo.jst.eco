@@ -1,5 +1,7 @@
+<label class="checkbox-inline pull-left">
+  <input type="checkbox">
+</label>
 <%= @todo.get('task') %>
 <% if @todo.get('priority'): %>
-  <span class="badge winner">WINNER</span>
+  <span class="badge winner">PRIORITY</span>
 <% end %>
-<button class="delete">Delete</button>

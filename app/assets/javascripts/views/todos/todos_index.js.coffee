@@ -7,16 +7,16 @@ class TodoRandomizer.Views.TodosIndex extends Backbone.View
     'click #draw': 'drawPriority'
 
   initialize: ->
-    @collection.on('reset', @render, @)
-    @collection.on('add', @appendEntry, @)
-    @collection.on('remove', @render, @)
+    @collection.on('reset', @render)
+    @collection.on('add', @appendEntry)
+    @collection.on('remove', @render)
 
-  render: ->
+  render: =>
     $(@el).html(@template(todo: @model))
     @collection.each(@appendEntry)
     @
 
-  appendEntry: (todo) ->
+  appendEntry: (todo) =>
     view = new TodoRandomizer.Views.Todo(model: todo)
     $('#todos').append(view.render().el)
 
