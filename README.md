@@ -4,9 +4,12 @@ This app is a built with additional features on top of the [Raffler App](http://
 
 This app is built using:
 * Rails 4.0.0
-* Ruby 2.0.0p247
+* Ruby 2.1.0
 * Backbone (using backbone on rails gem)
 * Twitter Bootstrap 3.0.0
+* Launched to Heroku
+
+URL on Heroku: [Todo Randomizer](http://todorandomizer.herokuapp.com/)
 
 ### Functions
 
@@ -43,8 +46,8 @@ gem 'protected_attributes'
 
 ### Methodology (non-technical)
 
-From the book (The 4-Hour Workweek)[http://www.fourhourworkweek.com/] by Tim Ferriss & [The 7 Habits of Highly Effective People](https://www.stephencovey.com/7habits/7habits.php), staying focused is crucial. Hence, this app is created to allow you to add important tasks to be completed today.
+From the book [The 4-Hour Workweek](http://www.fourhourworkweek.com/) by Tim Ferriss & [The 7 Habits of Highly Effective People](https://www.stephencovey.com/7habits/7habits.php), staying focused is crucial. Hence, this app is created to allow you to add important tasks to be completed today.
 
 ### Questions/Comments
 
-Contact me on (GitHub)[https://github.com/alvinang] for questions.
+Contact me on [GitHub](https://github.com/alvinang) for questions.
